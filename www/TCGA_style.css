@@ -1,0 +1,105 @@
+/* Get a fancy font from Google Fonts */
+
+@font-face {
+   
+   font-family: LATO;
+   src: url(lato/Lato-Black.ttf) format(truetype);
+}
+
+
+.content-wrapper {
+  background-image: url("tcga2.JPG");
+
+  background-repeat:no-repeat;
+  background-position: 300px;
+  background-color: #4f92ce4a ;
+ background-size: auto;
+}
+
+ .main-sidebar {
+  background-image: url("rpro.png");
+  background-repeat: repeat;
+  background-size: 220px;
+  height: 900px;
+  background-position: -14px;
+  background-color: black;
+  padding-left: -5px;
+
+}
+
+.skin-purple .logo {
+
+  
+  background-repeat: no-repeat;
+  background-image: url("logo.png");
+  background-size: 196px;
+  width: 243px;
+  height: 50px;
+  padding-top: 50px;
+  background-position: 2px;
+  background-color: black;
+}
+
+
+.skin-purple .sidebar-menu>li.active>a, .skin-purple .sidebar-menu>li:hover>a {
+    color: #283747;
+    background: #D5F5E3;
+    border-left-color: #77777d;
+}
+
+.skin-purple .left-side, .skin-purple .main-sidebar, .skin-purple .wrapper {
+    background-color: white;
+}
+
+.box.box-solid.box-primary>.box-header {
+    color: #380f0f;
+    background: #1c5475;
+    background-color: #3e7d7b;
+}
+
+.box.box-solid.box-success>.box-header {
+    color: #0e0d0d;
+    background: #050606;
+    background-color: #50ffaf;
+}
+
+.skin-purple .main-header .navbar {
+    background-color: #AAB7B8;
+}
+
+
+
+#downloading_tcga_novis{
+  visibility: hidden;
+}
+
+#load_tcga_info_pos{
+  padding-top: 25px;
+}
+
+#tcga_download_action{
+  
+  background-color: #0cef1e;
+}
+
+#check_tcgaprojects{
+  background-color: #409447;
+}
+
+#find_tcgadatacategory{
+  background-color: #F4D03F;
+}
+
+#find_tcga_data_parameters{
+background-color: #BB8FCE;
+}
+
+
+
+
+
+
+
+
+
+
